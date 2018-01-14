@@ -1,5 +1,6 @@
 import Main from './components/Main.vue'
 import Data from './components/Data.vue'
+import About from './components/About.vue';
 
 const routes = [
     {
@@ -9,6 +10,10 @@ const routes = [
     {
         path : '/data',
         component : Data
+    },
+    {
+        path : '/about',
+        component : About
     }
 ];
 
